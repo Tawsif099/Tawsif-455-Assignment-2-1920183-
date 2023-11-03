@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+.Myself {
+    text-align: center;
+}
+
+.Myself .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.photography-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.photo-box {
+    border: 1px solid #333;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    width: 250px;
+}
+
+.photo-box img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+.photo-box p {
+    font-family:Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 16px;
+    color: lightblue;
+}
